@@ -3914,16 +3914,16 @@ OUTPUT(LED_Matrix.elf elf32-littlearm)
  .debug_macro   0x0000000000020a54      0x315 sp_drivers/src/sp_stm32_uart.o
  .debug_macro   0x0000000000020d69       0x6a sp_drivers/src/sp_stm32_uart.o
 
-.debug_line     0x0000000000000000     0x48cc
+.debug_line     0x0000000000000000     0x48ca
  .debug_line    0x0000000000000000      0x9db Core/Src/main.o
  .debug_line    0x00000000000009db      0x9bf Core/Src/stm32f4xx_it.o
  .debug_line    0x000000000000139a      0x693 Core/Src/system_stm32f4xx.o
  .debug_line    0x0000000000001a2d       0x86 Core/Startup/startup_stm32f446retx.o
  .debug_line    0x0000000000001ab3      0x87d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x0000000000002330      0xa40 sp_drivers/src/sp_led_matrix.o
- .debug_line    0x0000000000002d70      0x8fc sp_drivers/src/sp_stm32_gpio.o
- .debug_line    0x000000000000366c      0x96c sp_drivers/src/sp_stm32_spi.o
- .debug_line    0x0000000000003fd8      0x8f4 sp_drivers/src/sp_stm32_uart.o
+ .debug_line    0x0000000000002330      0xa3e sp_drivers/src/sp_led_matrix.o
+ .debug_line    0x0000000000002d6e      0x8fc sp_drivers/src/sp_stm32_gpio.o
+ .debug_line    0x000000000000366a      0x96c sp_drivers/src/sp_stm32_spi.o
+ .debug_line    0x0000000000003fd6      0x8f4 sp_drivers/src/sp_stm32_uart.o
 
 .debug_str      0x0000000000000000    0xc4d2e
  .debug_str     0x0000000000000000    0xc42a2 Core/Src/main.o

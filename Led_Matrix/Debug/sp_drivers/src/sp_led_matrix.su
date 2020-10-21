@@ -3,5 +3,5 @@ sp_led_matrix.c:23:6:Draw_Spectrum	24	static
 sp_led_matrix.c:43:6:Write_Char	24	static
 sp_led_matrix.c:61:6:Scroll_Text	32	static
 sp_led_matrix.c:92:6:Copy_Array	32	static
-sp_led_matrix.c:113:6:Buffer_Array	24	static
-sp_led_matrix.c:124:6:Shift_Array	24	static
+sp_led_matrix.c:105:6:Buffer_Array	24	static
+sp_led_matrix.c:116:6:Shift_Array	24	static

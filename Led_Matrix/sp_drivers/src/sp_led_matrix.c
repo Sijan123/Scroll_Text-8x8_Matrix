@@ -91,14 +91,6 @@ void Scroll_Text(char *data) {
 //Copy the Array from font (size 4) table to a local array
 void Copy_Array(char index, char *orig, char *copy) {
 
-    /*
-    if (index == 0) {
-        for (int p = 0; p < 8; p++) {
-            *copy = *(orig + p);
-            copy++;
-        }
-    } else {
-    */
         for (int p = 0; p < 4; p++) {
             *copy = characters[(index - 0x41) * 4 + p];
             copy++;
